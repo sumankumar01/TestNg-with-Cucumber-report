@@ -1,0 +1,157 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 291100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.browserSetup(Scenario)"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Checking the Registration functionality flight application",
+        "description": "",
+        "id": "login;checking-the-registration-functionality-flight-application",
+        "after": [
+          {
+            "result": {
+              "duration": 74300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.result(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 157512800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "i am on login page",
+            "match": {
+              "location": "SD_login.i_am_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1951700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "i am entering the Registration details",
+            "match": {
+              "location": "SD_login.i_am_entering_the_Registration_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Filed",
+                  "Value",
+                  "",
+                  ""
+                ],
+                "line": 24
+              },
+              {
+                "cells": [
+                  "Firstname",
+                  "xyz",
+                  "",
+                  ""
+                ],
+                "line": 25
+              },
+              {
+                "cells": [
+                  "LastName",
+                  "def",
+                  "",
+                  ""
+                ],
+                "line": 26
+              },
+              {
+                "cells": [
+                  "AddressLine_2",
+                  "Whitfield",
+                  "",
+                  ""
+                ],
+                "line": 27
+              },
+              {
+                "cells": [
+                  "City",
+                  "Bangalore",
+                  "",
+                  ""
+                ],
+                "line": 28
+              },
+              {
+                "cells": [
+                  "Country",
+                  "India",
+                  "",
+                  ""
+                ],
+                "line": 29
+              },
+              {
+                "cells": [
+                  "phoneNum",
+                  "0000000",
+                  "11111",
+                  "555555"
+                ],
+                "line": 30
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 264700,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "i am validating the home page",
+            "match": {
+              "location": "SD_login.i_am_validating_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 20,
+            "name": "@Registration"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "login to flight application",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@loginmain"
+      }
+    ]
+  }
+]

@@ -1,0 +1,453 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "User is Logged In",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.CucumberHooks.BeforeStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "i am on login page",
+            "match": {
+              "location": "stepDefination.SD_login.i_am_on_login_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.CucumberHooks.AfterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-02T04:33:55.721Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.CucumberHooks.browserSetuporder(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.CucumberHooks.browserSetup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Checking the Registration functionality flight application",
+        "description": "",
+        "id": "login123;checking-the-registration-functionality-flight-application",
+        "after": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.CucumberHooks.AfterScanario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.CucumberHooks.BeforeStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 15,
+            "name": "i am entering the Registration details",
+            "match": {
+              "location": "stepDefination.SD_login.i_am_entering_the_Registration_details(io.cucumber.datatable.DataTable)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.CucumberHooks.AfterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Field",
+                  "Value",
+                  "",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "Firstname",
+                  "xyz",
+                  "",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "LastName",
+                  "def",
+                  "",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "AddressLine_2",
+                  "Whitfield",
+                  "",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "City",
+                  "Bangalore",
+                  "",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "Country",
+                  "India",
+                  "",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "phoneNum",
+                  "0000000",
+                  "11111",
+                  "555555"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.CucumberHooks.BeforeStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 23,
+            "name": "i am validating the home page",
+            "match": {
+              "location": "stepDefination.SD_login.i_am_validating_the_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.CucumberHooks.AfterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@BackGroundcucumber"
+          },
+          {
+            "name": "@Registration"
+          }
+        ]
+      }
+    ],
+    "name": "Login123",
+    "description": "  login to flight application",
+    "id": "login123",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/BackGround.feature",
+    "tags": [
+      {
+        "name": "@BackGroundcucumber",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-04-02T04:33:55.846Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.CucumberHooks.browserSetuporder(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.CucumberHooks.browserSetup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Checking the Registration functionality flight application",
+        "description": "",
+        "id": "login;checking-the-registration-functionality-flight-application",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.CucumberHooks.AfterScanario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.CucumberHooks.BeforeStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 32,
+            "name": "i am on login page",
+            "match": {
+              "location": "stepDefination.SD_login.i_am_on_login_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.CucumberHooks.AfterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.CucumberHooks.BeforeStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 33,
+            "name": "i am entering the Registration details",
+            "match": {
+              "location": "stepDefination.SD_login.i_am_entering_the_Registration_details(io.cucumber.datatable.DataTable)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.CucumberHooks.AfterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Field",
+                  "Value",
+                  "",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "Firstname",
+                  "xyz",
+                  "",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "LastName",
+                  "def",
+                  "",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "AddressLine_2",
+                  "Whitfield",
+                  "",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "City",
+                  "Bangalore",
+                  "",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "Country",
+                  "India",
+                  "",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "phoneNum",
+                  "0000000",
+                  "11111",
+                  "555555"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.CucumberHooks.BeforeStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 41,
+            "name": "i am validating the home page",
+            "match": {
+              "location": "stepDefination.SD_login.i_am_validating_the_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.CucumberHooks.AfterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@loginmain"
+          },
+          {
+            "name": "@Registration"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "  login to flight application",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": [
+      {
+        "name": "@loginmain",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

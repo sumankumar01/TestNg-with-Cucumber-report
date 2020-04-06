@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: runner.CucumberRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.829 s <<< FAILURE! - in runner.CucumberRunner
+initializationError(runner.CucumberRunner)  Time elapsed: 0.036 s  <<< ERROR!
+io.cucumber.core.gherkin.FeatureParserException: Failed to parse resource at: file:///C:/Training/automation/src/test/resources/features/BackGround.feature
+Caused by: io.cucumber.core.gherkin.vintage.internal.gherkin.ParserException$CompositeParserException: 
+Parser errors:
+(24:1): expected: #EOF, #TableRow, #DocStringSeparator, #StepLine, #TagLine, #ScenarioLine, #ScenarioOutlineLine, #Comment, #Empty, got 'Background: User is Logged In'
+

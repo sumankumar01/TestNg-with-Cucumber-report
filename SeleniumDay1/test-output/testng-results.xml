@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="5" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="49" started-at="2020-03-27T04:20:08Z" finished-at="2020-03-27T04:20:08Z">
+    <groups>
+      <group name="Regression">
+        <method signature="abc.HomePage()[pri:0, instance:demo.abc@5dfcfece]" name="HomePage" class="demo.abc"/>
+        <method signature="abc.login()[pri:0, instance:demo.abc@5dfcfece]" name="login" class="demo.abc"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test name="Test" duration-ms="49" started-at="2020-03-27T04:20:08Z" finished-at="2020-03-27T04:20:08Z">
+      <class name="demo.abc">
+        <test-method status="PASS" signature="HomePage()[pri:0, instance:demo.abc@5dfcfece]" name="HomePage" duration-ms="12" started-at="2020-03-27T04:20:08Z" finished-at="2020-03-27T04:20:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+        <test-method status="PASS" signature="login()[pri:0, instance:demo.abc@5dfcfece]" name="login" duration-ms="3" started-at="2020-03-27T04:20:08Z" finished-at="2020-03-27T04:20:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- demo.abc -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="40.084">
+<testcase classname="Login" name="Checking the login functionality flight application" time="38.777">
+<system-out><![CDATA[Given i am on login page....................................................passed
+When i am entering the login credential "mercury" and "mercury".............passed
+Then i am validating the home page..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

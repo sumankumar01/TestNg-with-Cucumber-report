@@ -1,0 +1,169 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-04-03T04:30:57.705Z",
+        "before": [
+          {
+            "result": {
+              "duration": 24060000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.CucumberHooks.browserSetup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Checking the login functionality flight application",
+        "description": "",
+        "id": "login;checking-the-login-functionality-flight-application;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1115000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.CucumberHooks.AfterScanario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2743000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.CucumberHooks.BeforeStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "i am on login page",
+            "match": {
+              "location": "stepDefination.SD_login.i_am_on_login_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.CucumberHooks.AfterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8457000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.CucumberHooks.BeforeStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "i am entering the login credential \"mercury\" and \"mercury\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mercury",
+                  "offset": 36
+                },
+                {
+                  "val": "mercury",
+                  "offset": 50
+                }
+              ],
+              "location": "stepDefination.SD_login.i_am_entering_the_login_credential_something_and_something(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.CucumberHooks.AfterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2131000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.CucumberHooks.BeforeStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "i am validating the home page",
+            "match": {
+              "location": "stepDefination.SD_login.i_am_validating_the_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.CucumberHooks.AfterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@loginFlight"
+          },
+          {
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "  login to flight application",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": [
+      {
+        "name": "@loginFlight",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
